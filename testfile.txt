@@ -1,2 +1,5 @@
 Created new file.
 Test situation to add file but not commit it, then push them to server
+Can't push data to github without commiting them.
+
+2-nd test. save this changes. then add one more string and then commit changes.
