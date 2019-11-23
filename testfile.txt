@@ -3,3 +3,5 @@ Test situation to add file but not commit it, then push them to server
 Can't push data to github without commiting them.
 
 2-nd test. save this changes. then add one more string and then commit changes.
+(this changes will not be saved)
+3-d test. save this changes using command "git commit -a"
