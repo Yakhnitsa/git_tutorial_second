@@ -1,0 +1,13 @@
+#List of ignored files:
+
+#Ignore allf iles ends with "ignored", "ign"
+*.ign
+*.ignored
+
+#do not ignore one file
+!not_ignored.ignored
+
+#ignore directory "ign_dir"
+ign_dir/
+
+
