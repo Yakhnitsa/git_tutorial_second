@@ -6,3 +6,7 @@ Can't push data to github without commiting them.
 (this changes will not be saved)
 3-d test. save this changes using command "git commit -a" (command commit all changes in files, added under version control, but not commit new files, that not added with command "git add".
 One more change.
+
+test commang git diff --staged
+--before add
+--after add command

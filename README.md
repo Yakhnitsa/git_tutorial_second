@@ -10,7 +10,9 @@ git config --global core.editor -> configuring text editor by default.
 git clone [url]
 (git clone git@github.com:Yakhnitsa/git_tutorial.git)
 
-git diff
+git diff -> Show files and lines, that have been modified after add commant.
+git diff --staged -> Shows changes in file, that will be commited.
+git diff -stat -> shows summary of which files were changed & numbe3r of added/deleted lines
 
 git remote -v
 
