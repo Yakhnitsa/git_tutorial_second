@@ -13,6 +13,8 @@ git clone [url] [dir]
 git diff -> Show files and lines, that have been modified after add commant.
 git diff --staged -> Shows changes in file, that will be commited.
 git diff -stat -> shows summary of which files were changed & numbe3r of added/deleted lines
+git diff HEAD - changes after last commit
+git diff HEAD^ - changes after previous commit
 
 git remote -v
 
