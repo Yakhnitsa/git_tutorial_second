@@ -10,3 +10,5 @@ One more change.
 test commang git diff --staged
 --before add
 --after add command
+
+--testing difftool
