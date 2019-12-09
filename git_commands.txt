@@ -27,7 +27,7 @@ https://agladky.ru/blog/git-cheat-sheet/
 
 	git config --global alias.last 'log -1 HEAD' - просмотр последнего коммита
 
-	git config --global alias.getgraph 'log --pretty=format:"%h - %cd %s" --graph' построение дерева коммитов по формату
+	git config --global alias.getgraph 'log --pretty=format:"%h - %cd %s" --graph --date=format:"%Y-%m-%d %H:%M"' --graph' построение дерева коммитов по формату
 	
 Создание репозиториев
 git init [project-name] — создать новый локальный репозиторий с заданным именем.
