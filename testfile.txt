@@ -12,3 +12,4 @@ test commang git diff --staged
 --after add command
 
 --testing difftool
+Проверка отката изменений. Точка отката 1
