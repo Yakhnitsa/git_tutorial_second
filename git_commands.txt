@@ -27,7 +27,7 @@ https://agladky.ru/blog/git-cheat-sheet/
 
 	git config --global alias.last 'log -1 HEAD' - просмотр последнего коммита
 
-	git config --global alias.getgraph 'log --pretty=format:"%h - %cd %s" --graph --date=format:"%Y-%m-%d %H:%M"' --graph' построение дерева коммитов по формату
+	git config --global alias.getgraph 'log --pretty=format:"%Cgreen%h%Creset %cd %C(blue)%an %C(yellow)%s" --graph --date=format:"%Y-%m-%d %H:%M"' построение дерева коммитов по формату
 	
 Создание репозиториев
 git init [project-name] — создать новый локальный репозиторий с заданным именем.
@@ -71,28 +71,28 @@ git commit -m "[descriptive message]" — записать изменения с
 
 git commit --amend — добавить изменения к последнему коммиту.
 
-Работа с ветками
-git branch — список всех локальных веток в текущей директории.
+РАБОТА С ВЕТКАМИ
+	git branch — список всех локальных веток в текущей директории.
 
-git branch [branch-name] — создать новую ветку.
+	git branch [branch-name] — создать новую ветку.
 
-git checkout [branch-name] — переключиться на указанную ветку и обновить рабочую директорию.
+	git checkout [branch-name] — переключиться на указанную ветку и обновить рабочую директорию.
 
-git checkout -b <name> <remote>/<branch> — переключиться на удаленную ветку.
+	git checkout -b <name> <remote>/<branch> — переключиться на удаленную ветку.
 
-git checkout [filename] — вернуть файл в первоначальное состояние если он еще не был добавлен в индекс коммита.
+	git cheсkout [filename] — вернуть файл в первоначальное состояние если он еще не был добавлен в индекс коммита.
 
-git merge [branch] — соединить изменения в текущей ветке с изменениями из заданной.
+	git merge [branch] — соединить изменения в текущей ветке с изменениями из заданной.
 
-git merge --no-ff [branch] — соединить ветки без режима “fast forwarding”.
+	git merge --no-ff [branch] — соединить ветки без режима “fast forwarding”.
 
-git branch -a — посмотреть полный список локальных и удаленных веток.
+	git branch -a — посмотреть полный список локальных и удаленных веток.
 
-git branch -d [branch] — удалить заданную ветку.
+	git branch -d [branch] — удалить заданную ветку.
 
-git branch -D [branch] — принудительно удалить заданную ветку, игнорируя ошибки.
+	git branch -D [branch] — принудительно удалить заданную ветку, игнорируя ошибки.
 
-git branch -m <oldname> <newname> — переименовать ветку.
+	git branch -m <oldname> <newname> — переименовать ветку.
 
 Работа с файлами
 git rm [file] — удалить файл из рабочей директории и добавить в индекс информацию об удалении.
