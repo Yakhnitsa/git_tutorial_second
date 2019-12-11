@@ -1,10 +1,7 @@
 Main branch file
 1. Start point of branches.
-<<<<<<< HEAD
 2. Изменение в общем файле в ветке master
 3-е изменение в файле main в ветке master до слияния с веткой fixbranch
 4-е изменение в файле main в ветке master после слияния с веткой fixbranch
-=======
 2. Изменение общего файла в ветке test
 3. 2-е изменение общего файла в ветке test
->>>>>>> test
